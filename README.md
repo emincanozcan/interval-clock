@@ -4,14 +4,6 @@
 This project demonstrates a sample application for Huawei Wearable Devices that runs with HarmonyOS Next.
 It is an interval clock sample app for sports & outdoor users.
 
-## Expanded feature surface
-
-- Dashboard quick start with one-tap launch from favorite and recent routines
-- Preset library with built-in routines, favorites, recents, and editable custom routines
-- Timer coaching flow with warm-up, work, rest, and cool-down phases
-- Session summary, persisted history, and insight metrics for trend review
-- Reminder settings, haptic coaching intensity, keep-awake control, and round-label display options
-
 # Preview
 
 <div>
@@ -67,16 +59,6 @@ entry/src/main/ets/
 - Tools: DevEco Studio Version 5.1.0.842
 - Libraries: @kit.ArkUI, @kit.AbilityKit, @kit.SensorServiceKit, @kit.CoreFileKit, @kit.PerformanceAnalysisKit
 - HarmonyOS Capabilities: wearable navigation, haptic feedback, persistent settings storage, session recovery, and reminder-state persistence
-
-# Build and verification
-
-From the repository root:
-
-```bash
-./hvigorw assembleHap
-```
-
-This compiles the wearable HAP and is the primary verification step for implementation changes.
 
 # Constraints and Restrictions
 
