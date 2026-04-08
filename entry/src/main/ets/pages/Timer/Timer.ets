@@ -614,10 +614,9 @@ export struct Timer {
         }
 
         Button() {
-          Text('↺')
-            .fontSize(10)
-            .fontWeight(FontWeight.Bold)
-            .fontColor('#E7F1FF')
+          SymbolGlyph($r('sys.symbol.redo'))
+            .fontSize(14)
+            .fontColor(['#E7F1FF'])
         }
           .width(24)
           .height(24)
@@ -629,10 +628,9 @@ export struct Timer {
           })
 
         Button() {
-          Text('■')
-            .fontSize(9)
-            .fontWeight(FontWeight.Bold)
-            .fontColor('#FFE8E8')
+          SymbolGlyph($r('sys.symbol.square'))
+            .fontSize(13)
+            .fontColor(['#FFE8E8'])
         }
           .width(24)
           .height(24)
@@ -644,10 +642,9 @@ export struct Timer {
           })
 
         Button() {
-          Text('+10')
-            .fontSize(8)
-            .fontWeight(FontWeight.Bold)
-            .fontColor('#FDF2E0')
+          SymbolGlyph($r('sys.symbol.goforward_10'))
+            .fontSize(14)
+            .fontColor(['#FDF2E0'])
         }
           .width(26)
           .height(26)
@@ -659,10 +656,9 @@ export struct Timer {
           })
 
         Button() {
-          Text('⏭')
-            .fontSize(10)
-            .fontWeight(FontWeight.Bold)
-            .fontColor('#F4F4F5')
+          SymbolGlyph($r('sys.symbol.forward_end_fill'))
+            .fontSize(14)
+            .fontColor(['#F4F4F5'])
         }
           .width(24)
           .height(24)
@@ -674,10 +670,9 @@ export struct Timer {
           })
 
         Button() {
-          Text(this.isPaused ? '▶' : '⏸')
-            .fontSize(11)
-            .fontWeight(FontWeight.Bold)
-            .fontColor('#FFFFFF')
+          SymbolGlyph(this.isPaused ? $r('sys.symbol.play') : $r('sys.symbol.pause'))
+            .fontSize(15)
+            .fontColor(['#FFFFFF'])
         }
           .width(28)
           .height(28)

@@ -207,10 +207,9 @@ export struct SettingsPage {
                 .fontColor('#D0D0D0')
               Row({ space: 6 }) {
                 Button() {
-                  Text('−')
+                  SymbolGlyph($r('sys.symbol.minus'))
                     .fontSize(16)
-                    .fontWeight(FontWeight.Bold)
-                    .fontColor(Color.White)
+                    .fontColor([Color.White])
                 }
                   .width(30)
                   .height(28)
@@ -223,10 +222,9 @@ export struct SettingsPage {
                   .width(70)
                   .textAlign(TextAlign.Center)
                 Button() {
-                  Text('+')
+                  SymbolGlyph($r('sys.symbol.plus'))
                     .fontSize(16)
-                    .fontWeight(FontWeight.Bold)
-                    .fontColor(Color.White)
+                    .fontColor([Color.White])
                 }
                   .width(30)
                   .height(28)
@@ -247,10 +245,9 @@ export struct SettingsPage {
                 .fontColor('#D0D0D0')
               Row({ space: 6 }) {
                 Button() {
-                  Text('−')
+                  SymbolGlyph($r('sys.symbol.minus'))
                     .fontSize(16)
-                    .fontWeight(FontWeight.Bold)
-                    .fontColor(Color.White)
+                    .fontColor([Color.White])
                 }
                   .width(30)
                   .height(28)
@@ -263,10 +260,9 @@ export struct SettingsPage {
                   .width(70)
                   .textAlign(TextAlign.Center)
                 Button() {
-                  Text('+')
+                  SymbolGlyph($r('sys.symbol.plus'))
                     .fontSize(16)
-                    .fontWeight(FontWeight.Bold)
-                    .fontColor(Color.White)
+                    .fontColor([Color.White])
                 }
                   .width(30)
                   .height(28)
@@ -287,10 +283,9 @@ export struct SettingsPage {
                 .fontColor('#D0D0D0')
               Row({ space: 6 }) {
                 Button() {
-                  Text('−')
+                  SymbolGlyph($r('sys.symbol.minus'))
                     .fontSize(16)
-                    .fontWeight(FontWeight.Bold)
-                    .fontColor(Color.White)
+                    .fontColor([Color.White])
                 }
                   .width(30)
                   .height(28)
@@ -303,10 +298,9 @@ export struct SettingsPage {
                   .width(70)
                   .textAlign(TextAlign.Center)
                 Button() {
-                  Text('+')
+                  SymbolGlyph($r('sys.symbol.plus'))
                     .fontSize(16)
-                    .fontWeight(FontWeight.Bold)
-                    .fontColor(Color.White)
+                    .fontColor([Color.White])
                 }
                   .width(30)
                   .height(28)
@@ -327,10 +321,9 @@ export struct SettingsPage {
                 .fontColor('#D0D0D0')
               Row({ space: 6 }) {
                 Button() {
-                  Text('−')
+                  SymbolGlyph($r('sys.symbol.minus'))
                     .fontSize(16)
-                    .fontWeight(FontWeight.Bold)
-                    .fontColor(Color.White)
+                    .fontColor([Color.White])
                 }
                   .width(30)
                   .height(28)
@@ -343,10 +336,9 @@ export struct SettingsPage {
                   .width(70)
                   .textAlign(TextAlign.Center)
                 Button() {
-                  Text('+')
+                  SymbolGlyph($r('sys.symbol.plus'))
                     .fontSize(16)
-                    .fontWeight(FontWeight.Bold)
-                    .fontColor(Color.White)
+                    .fontColor([Color.White])
                 }
                   .width(30)
                   .height(28)
@@ -367,10 +359,9 @@ export struct SettingsPage {
                 .fontColor('#D0D0D0')
               Row({ space: 6 }) {
                 Button() {
-                  Text('−')
+                  SymbolGlyph($r('sys.symbol.minus'))
                     .fontSize(16)
-                    .fontWeight(FontWeight.Bold)
-                    .fontColor(Color.White)
+                    .fontColor([Color.White])
                 }
                   .width(30)
                   .height(28)
@@ -383,10 +374,9 @@ export struct SettingsPage {
                   .width(70)
                   .textAlign(TextAlign.Center)
                 Button() {
-                  Text('+')
+                  SymbolGlyph($r('sys.symbol.plus'))
                     .fontSize(16)
-                    .fontWeight(FontWeight.Bold)
-                    .fontColor(Color.White)
+                    .fontColor([Color.White])
                 }
                   .width(30)
                   .height(28)
@@ -467,10 +457,9 @@ export struct SettingsPage {
                   .fontColor('#D0D0D0')
                 Row({ space: 6 }) {
                   Button() {
-                    Text('−')
+                    SymbolGlyph($r('sys.symbol.minus'))
                       .fontSize(16)
-                      .fontWeight(FontWeight.Bold)
-                      .fontColor(Color.White)
+                      .fontColor([Color.White])
                   }
                     .width(30)
                     .height(28)
@@ -483,10 +472,9 @@ export struct SettingsPage {
                     .width(70)
                     .textAlign(TextAlign.Center)
                   Button() {
-                    Text('+')
+                    SymbolGlyph($r('sys.symbol.plus'))
                       .fontSize(16)
-                      .fontWeight(FontWeight.Bold)
-                      .fontColor(Color.White)
+                      .fontColor([Color.White])
                   }
                     .width(30)
                     .height(28)
@@ -507,10 +495,9 @@ export struct SettingsPage {
                   .fontColor('#D0D0D0')
                 Row({ space: 6 }) {
                   Button() {
-                    Text('−')
+                    SymbolGlyph($r('sys.symbol.minus'))
                       .fontSize(16)
-                      .fontWeight(FontWeight.Bold)
-                      .fontColor(Color.White)
+                      .fontColor([Color.White])
                   }
                     .width(30)
                     .height(28)
@@ -523,10 +510,9 @@ export struct SettingsPage {
                     .width(70)
                     .textAlign(TextAlign.Center)
                   Button() {
-                    Text('+')
+                    SymbolGlyph($r('sys.symbol.plus'))
                       .fontSize(16)
-                      .fontWeight(FontWeight.Bold)
-                      .fontColor(Color.White)
+                      .fontColor([Color.White])
                   }
                     .width(30)
                     .height(28)
